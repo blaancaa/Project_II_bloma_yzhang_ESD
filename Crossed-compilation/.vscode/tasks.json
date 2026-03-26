@@ -17,7 +17,7 @@
         {
             "label": "Deploy",
             "type": "shell",
-            "command": "ssh root@${config:target_ip} 'rm -f /root/$ {config:executable_file}' && scp ${config:executable_file} root@$ {config:target_ip}:/root/",
+            "command": "ssh root@${config:target_ip} 'rm -f /root/${config:executable_file}' && scp ${config:executable_file} root@${config:target_ip}:/root/",
             "dependsOn": ["Build"]
         },
         {
