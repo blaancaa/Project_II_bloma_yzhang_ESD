@@ -1,0 +1,7 @@
+{
+    "buildroot_build_dir": "/home/alumno/Documentos/rpi",
+    "target_ip": "<192.168.1.133>",
+    "executable_file": "I2C",
+    "buildroot_env": "${config:buildroot_build_dir}/host/environment-setup",
+    "host_gdb": "${config:buildroot_build_dir}/host/bin/aarch64-linux-gdb",
+}
